@@ -1,0 +1,66 @@
+.account-info {
+  display: flex;
+  align-items: center;
+  padding: 1.25rem;
+  background-color: #f9fafb;
+  border-radius: 1rem;
+  margin-bottom: 2rem;
+}
+
+.profile-image-container {
+  position: relative;
+}
+
+.profile-image {
+  width: 3rem;
+  height: 3rem;
+  border-radius: 50%;
+  border: 3px solid #8b5cf6;
+}
+
+.person-icon-overlay {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  padding: 0.4rem;
+  background-color: #7c3aed;
+  border-radius: 50%;
+  color: white;
+  font-size: 0.875rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.profile-text {
+  margin-left: 1rem;
+}
+
+.profile-text h3 {
+  font-weight: 600;
+  font-size: 1rem;
+  color: #111827;
+  margin: 0;
+}
+
+.profile-text p {
+  color: #6b7280;
+  font-size: 0.9rem;
+  margin-top: 0.25rem;
+}
+
+.profile-description {
+  margin-top: 1.5rem;
+}
+
+.profile-description p {
+  color: #374151;
+  line-height: 1.6;
+  font-size: 0.95rem;
+}
+
+.dotted-break {
+  border: none;
+  border-top: 2.25px dotted #ccc; /* Dotted line */
+  margin: 1rem 0;              /* Spacing above and below */
+}

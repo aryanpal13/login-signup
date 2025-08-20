@@ -1,0 +1,29 @@
+
+.mobile-container {
+  width: 100%;
+  height: 100vh;
+  width: 50vh;
+  background-color: #f3f4f6;
+  /* border-radius: 2rem; */
+  /* box-shadow: 0 12px 30px rgba(0, 0, 0, 0.12); */
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+
+.mobile-header {
+  display: flex;
+  align-items: center;
+  font-size: 0.95rem;
+  text-align: left;
+  justify-content: space-between;
+  padding: 0rem 1.25rem;
+  background-color: #f3f4f6;
+  border-bottom: 1px solid #e5e7eb;
+}
+
+.mobile-content {
+  flex-grow: 1;
+  padding: 1.5rem 1.25rem;
+  overflow-y: auto;
+}
