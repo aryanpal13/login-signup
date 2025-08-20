@@ -11,22 +11,22 @@ const CreateAccountPage = ({ onNavigate }) => {
       <form className="create-account-form">
         <div className="input-group">
           <input className="inputfield" defaultValue="Marry Doe" type="text" id="fullName" placeholder="" required />
-          <label htmlFor="fullName">Full Name<span className="text-red-500">*</span></label>
+          <label htmlFor="fullName">Full Name<span className="star">*</span></label>
         </div>
         
         <div className="input-group">
           <input className="inputfield"  type="tel" id="phoneNumber" placeholder=" " required />
-          <label htmlFor="phoneNumber">Phone Number<span className="text-red-500">*</span></label>
+          <label htmlFor="phoneNumber">Phone Number<span className="star">*</span></label>
         </div>
 
         <div className="input-group">
           <input type="email" id="emailAddress" placeholder=" " required />
-          <label htmlFor="emailAddress">Email Address<span className="text-red-500">*</span></label>
+          <label htmlFor="emailAddress">Email Address<span className="star">*</span></label>
         </div>
 
         <div className="input-group">
           <input type="password" id="password" placeholder=" " required />
-          <label htmlFor="password">Password<span className="text-red-500">*</span></label>
+          <label htmlFor="password">Password<span className="star">*</span></label>
         </div>
 
         <div className="input-group">

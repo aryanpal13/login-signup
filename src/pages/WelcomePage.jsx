@@ -5,7 +5,7 @@ const WelcomePage = ({ onNavigate }) => {
   return (
     <div className="welcome-page-container">
       <div className="welcome-page-content">
-        <div className="text-left mb-8">
+        <div>
           <h2>Welcome to PopX</h2>
           <p>
             Lorem ipsum dolor sit amet,
