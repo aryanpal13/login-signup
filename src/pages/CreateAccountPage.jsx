@@ -36,22 +36,22 @@ const CreateAccountPage = ({ onNavigate }) => {
         
         <div className="pt-4">
           <p className="text-gray-700 mb-2">Are you an Agency?</p>
-          <div className="flex items-center space-x-4">
+          <div>
             <label className="inline-flex items-center">
-              <input type="radio" name="agency" value="yes" className="form-radio text-purple-700" />
-              <span className="ml-2 text-gray-700">Yes</span>
+              <input type="radio" name="agency" value="yes" />
+              <span>Yes</span>
             </label>
-            <label className="inline-flex items-center">
-              <input type="radio" name="agency" value="no" className="form-radio text-purple-700" />
-              <span className="ml-2 text-gray-700">No</span>
+            <label>
+              <input type="radio" name="agency" value="no" />
+              <span>No</span>
             </label>
           </div>
         </div>
         
-        <div className="mt-8">
+        <div>
           <button
             type="submit"
-            className="btn font-semibold py-3 rounded-lg transition-colors hover:bg-purple-800"
+            className="btn"
             onClick={(e) => { e.preventDefault(); onNavigate('account-settings'); }}
           >
             Create Account

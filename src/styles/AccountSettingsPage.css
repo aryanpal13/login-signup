@@ -61,6 +61,6 @@
 
 .dotted-break {
   border: none;
-  border-top: 2.25px dotted #ccc; /* Dotted line */
-  margin: 1rem 0;              /* Spacing above and below */
+  border-top: 2.25px dotted #ccc;
+  margin: 1rem 0;              
 }

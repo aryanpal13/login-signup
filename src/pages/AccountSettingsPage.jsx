@@ -18,7 +18,7 @@ const AccountSettingsPage = ({ onNavigate }) => {
             className="profile-image"
           />
           <div className="person-icon-overlay">
-            <PersonIcon className="w-4 h-4" />
+            <PersonIcon />
           </div>
         </div>
         <div className="profile-text">

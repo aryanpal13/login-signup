@@ -6,8 +6,8 @@ const SignInPage = ({ onNavigate }) => {
   return (
     <MobileFrame title="Signin to your PopX account" showBackButton={true} onBack={() => onNavigate('welcome')}>
       <div className="signin-page-content">
-        <div className="text-left w-full mb-8">
-          <p className="text-gray-500 text-sm">
+        <div>
+          <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit,
           </p>
         </div>
